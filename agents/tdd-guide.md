@@ -214,6 +214,9 @@ Before marking tests complete:
 - [ ] Error paths tested (not just happy path)
 - [ ] Mocks used for external dependencies
 - [ ] Tests are independent (no shared state)
+- [ ] Tests are idempotent
+- [ ] Tests MUST NOT have side effects
+- [ ] Tests MUST NOT read, modify, or depend on user configuration files
 - [ ] Test names describe what's being tested
 - [ ] Assertions are specific and meaningful
 - [ ] Coverage is 80%+ (verify with coverage report)
